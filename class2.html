@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h4 id="main_heading">AU Time Table</h4>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            
+        </ul>
+    </div>
+    <h2 class="class1_time">Please teacher,<br> start designing the time table for class II. </h2>
+
+    <div class="design">
+        <table>
+            <tr>
+                <th></th>
+                <th>MONDAY</th>
+                <th>TUESDAY</th>
+                <th>WEDNESDAY</th>
+                <th>THURSDAY</th>
+                <th>FRIDAY</th>
+                <th>SATURDAY</th>
+                <th>SUNDAY</th>
+            </tr>
+            <tr>
+                <th>9:00 - 10:00</th>
+                <td id="m-1period" onclick="myFunction1()"></td>
+                <td id="t-1period" onclick="myFunction2()"></td>
+                <td id="w-1period" onclick="myFunction3()"></td>
+                <td id="th-1period" onclick="myFunction4()"></td>
+                <td id="f-1period" onclick="myFunction5()"></td>
+                <td id="s-1period" ></td>
+                <td id="sun-1period"></td>
+            </tr>
+            <tr>
+                <th>10:00 - 11:00</th>
+                <td id="m-2period" onclick="myFunction21()"></td>
+                <td id="t-2period" onclick="myFunction22()"></td>
+                <td id="w-2period" onclick="myFunction23()"></td>
+                <td id="th-2period" onclick="myFunction24()"></td>
+                <td id="f-2period" onclick="myFunction25()"></td>
+                <td id="s-2period" ></td>
+                <td id="sun-2period"></td>
+            </tr>
+            <tr>
+                <th>BREAK</th>
+            </tr>
+            <tr>
+                <th>11:30 - 12:30</th>
+                <td id="m-3period" onclick="myFunction31()"></td>
+                <td id="t-3period" onclick="myFunction32()"></td>
+                <td id="w-3period" onclick="myFunction33()"></td>
+                <td id="th-3period" onclick="myFunction34()"></td>
+                <td id="f-3period" onclick="myFunction35()"></td>
+                <td id="s-1period"></td>
+                <td id="sun-1period"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="myscript.js"></script>
+</body>
+</html>
